@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   testdep:
   - apiVersion: v2
+    appVersion: 2.16.0
+    created: "2021-01-28T04:22:09.962045719Z"
+    description: A Helm chart for Kubernetes new application
+    digest: acd91fc1e183c2079bea8dc89e5b75c9e50c859660031be1fdbb5ee3ef8762b0
+    name: testdep
+    type: application
+    urls:
+    - testdep-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-27T07:09:03.311387595Z"
+    created: "2021-01-28T04:22:09.961699216Z"
     description: A Helm chart for Kubernetes my application
     digest: ea15d8862829d6f9c34de67f1cd264486cf574d829c7c7d5e985874b374b50a7
     name: testdep
@@ -11,4 +21,4 @@ entries:
     urls:
     - testdep-1.1.0.tgz
     version: 1.1.0
-generated: "2021-01-27T07:09:03.310851252Z"
+generated: "2021-01-28T04:22:09.960689586Z"
